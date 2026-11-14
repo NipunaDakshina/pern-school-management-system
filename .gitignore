@@ -1,0 +1,106 @@
+
+# ==========================================
+# DEPENDENCIES
+# ==========================================
+node_modules/
+.pnp/
+.pnp.js
+
+# ==========================================
+# LOGS
+# ==========================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# ENVIRONMENT VARIABLES
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# ==========================================
+# BUILD OUTPUTS
+# ==========================================
+dist/
+dist-ssr/
+build/
+out/
+coverage/
+
+# ==========================================
+# FRONTEND (REACT / VITE / NEXT.JS)
+# ==========================================
+frontend/.vite/
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# ==========================================
+# BACKEND
+# ==========================================
+backend/uploads/
+backend/logs/
+backend/tmp/
+
+# ==========================================
+# CACHE AND TEMPORARY FILES
+# ==========================================
+.cache/
+.tmp/
+temp/
+*.tmp
+*.temp
+*.local
+
+# ==========================================
+# EDITORS AND IDEs
+# ==========================================
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ==========================================
+# OPERATING SYSTEM FILES
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# WINDOWS / VISUAL STUDIO
+# ==========================================
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==========================================
+# TESTING
+# ==========================================
+.nyc_output/
+playwright-report/
+test-results/
+
+# ==========================================
+# DATABASE LOCAL FILES
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+
+# ==========================================
+# MISCELLANEOUS
+# ==========================================
+*.bak
+*.old
+*.orig
+*.rej
