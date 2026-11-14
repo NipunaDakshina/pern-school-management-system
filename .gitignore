@@ -35,24 +35,32 @@ out/
 coverage/
 
 # ==========================================
-# FRONTEND (REACT / VITE / NEXT.JS)
+# FRONTEND - REFINE / REACT / VITE / NEXT
 # ==========================================
-frontend/.vite/
-frontend/.next/
-frontend/out/
-frontend/build/
+.vite/
+.next/
+storybook-static/
+.turbo/
+.cache/
 
 # ==========================================
-# BACKEND
+# BACKEND - GENERATED / LOCAL FILES
 # ==========================================
-backend/uploads/
-backend/logs/
-backend/tmp/
+classroom-backend/uploads/
+classroom-backend/tmp/
+classroom-backend/logs/
+
+# ==========================================
+# TESTING
+# ==========================================
+.nyc_output/
+playwright-report/
+test-results/
+coverage/
 
 # ==========================================
 # CACHE AND TEMPORARY FILES
 # ==========================================
-.cache/
 .tmp/
 temp/
 *.tmp
@@ -63,12 +71,11 @@ temp/
 # EDITORS AND IDEs
 # ==========================================
 .idea/
-.vscode/*
+.vscode/
 !.vscode/extensions.json
-!.vscode/settings.json
 
 # ==========================================
-# OPERATING SYSTEM FILES
+# OPERATING SYSTEM
 # ==========================================
 .DS_Store
 Thumbs.db
@@ -82,13 +89,6 @@ desktop.ini
 *.njsproj
 *.sln
 *.sw?
-
-# ==========================================
-# TESTING
-# ==========================================
-.nyc_output/
-playwright-report/
-test-results/
 
 # ==========================================
 # DATABASE LOCAL FILES
